@@ -1,10 +1,10 @@
 # Node Translation Scripts
 
-Zero dependency i18n translation cli scripts
+i18n translation cli scripts
 
 ## CLI
 
-<strong>--help</strong>
+<strong>-h</strong> - help
 
 #### Validate
 

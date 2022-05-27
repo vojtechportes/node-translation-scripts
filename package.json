@@ -1,8 +1,14 @@
 {
-  "name": "node-tranlsation-scripts",
-  "description": "Zero dependency i18n translation cli scripts",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "node-translation-scripts",
+  "description": "i18n translation cli scripts",
+  "version": "1.0.4",
+  "main": "cli.js",
+  "bin": {
+    "node-translation-scripts": "cli.js"
+  },
+  "exports": {
+    "./bin.js": "./cli.js"
+  },
   "respository": {
     "type": "git",
     "url": "git://github.com/vojtechportes/node-translation-scripts.git"
@@ -33,5 +39,8 @@
   },
   "bugs": {
     "url": "https://github.com/vojtechportes/node-translation-scripts/issues"
+  },
+  "dependencies": {
+    "yargs": "17.5.1"
   }
 }

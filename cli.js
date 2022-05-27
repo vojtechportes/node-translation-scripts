@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /* eslint-disable */
 const argv = require('yargs').argv
 
@@ -7,7 +9,7 @@ const importTranslatedFiles = require('./scripts/importTranslatedFiles')
 
 /**/
 
-if (argv.h) {
+if (argv.h || argv.help) {
   process.stdout.write(
     'Translation Scripts help\n\n' +
       '--validate - Validates reference language against other translations\n' +
