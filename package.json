@@ -1,0 +1,23 @@
+{
+  "name": "node-translation-scripts",
+  "description": "Zero dependency i18n translation cli scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "respository": {
+    "type": "git",
+    "url": "git://github.com/vojtechportes/node-translation-scripts.git"
+  },
+  "keywords": [
+    "i18n",
+    "translation",
+    "import",
+    "export",
+    "validate",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
