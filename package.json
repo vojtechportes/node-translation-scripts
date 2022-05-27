@@ -1,5 +1,5 @@
 {
-  "name": "node-translation-scripts",
+  "name": "node-tranlsation-scripts",
   "description": "Zero dependency i18n translation cli scripts",
   "version": "1.0.0",
   "main": "index.js",
@@ -10,11 +10,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "author": {
-    "email": "vojtech.v.portes@gmail.com",
-    "name": "Vojtech Portes",
-    "url": "https://www.github.com/vojtechportes"
-  },
+  "author": "Vojtech Portes <vojtech.v.portes@gmail.com> (https://www.github.com/vojtechportes)",
   "homepage": "https://github.com/vojtechportes/node-translation-scripts",
   "keywords": [
     "i18n",
@@ -28,5 +24,14 @@
     "node": ">=12"
   },
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vojtechportes/node-translation-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vojtechportes/node-translation-scripts/issues"
+  }
 }
